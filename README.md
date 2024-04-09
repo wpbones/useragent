@@ -10,32 +10,37 @@ An useful method to detect the useragent
 
 You can install third party packages by using:
 
-    $ php bones require wpbones/useragent
+```sh
+php bones require wpbones/useragent
+```
    
 I advise to use this command instead of `composer require` because doing this an automatic renaming will done.  
 
 You can use composer to install this package:
 
-    $ composer require wpbones/useragent
+```sh
+composer require wpbones/useragent
+```
 
 You may also to add `"wpbones/useragent": "^1.0"` in the `composer.json` file of your plugin:
  
 ```json
   "require": {
     "php": ">=7.2",
-    "wpbones/wpbones": "~0.8",
+    "wpbones/wpbones": "~1.0",
     "wpbones/useragent": "~1.0"
   },
 ```
 
-
 and run 
 
-    $ composer install
+```sh
+composer install
+```
     
 ## How to
 
-You will be able to use `wpbones_user_agent()` function to get an istance of Mobile Detect.
+You will be able to use `wpbones_user_agent()` function to get an instance of Mobile Detect.
 
 ```php
     if(wpbones_user_agent()->isMobile()) {
