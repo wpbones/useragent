@@ -10,7 +10,7 @@
 
 </div>
 
-An useful method to detect the useragent
+An useful wrapper for [Mobile Detect](https://github.com/serbanghita/Mobile-Detect) to detect mobile devices for WP Bones.
 
 ## Requirements
 
