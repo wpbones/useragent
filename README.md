@@ -9,6 +9,11 @@
 
 </div>
 
+<div align="center">
+  <p><img src="https://raw.githubusercontent.com/wpbones/.github/main/glancecard/useragent.svg" width="880" alt="useragent at a glance, refreshed daily: commits, releases, stars, issues and pull requests, a year of commit activity, the weekly rhythm, languages, latest commits and releases, contributors" /><br>
+  <sub>Made with <a href="https://github.com/gfazioli/glancecard">glancecard</a> · refreshed daily</sub></p>
+</div>
+
 An useful wrapper for [Mobile Detect](https://github.com/serbanghita/Mobile-Detect) to detect mobile devices for WP Bones.
 
 ## Requirements
